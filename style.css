@@ -93,6 +93,7 @@ body {
 
 .contact-info__block--center {
   justify-content: center;
+  margin-right: 85px;
 }
 
 .contact-info__item {
@@ -166,6 +167,8 @@ body {
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
+  line-height: 1.8;
+  margin-left: 15px;
 }
 /* Experience and additional info styles */
 .experiences {
@@ -195,7 +198,6 @@ body {
 }
 
 .experiences__company-project {
-  margin-left: 15px;
   margin-bottom: 25px;
 }
 
@@ -260,4 +262,10 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 70px;
+  gap: 250px;
 }
