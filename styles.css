@@ -268,3 +268,16 @@ body {
   justify-content: space-between;
   margin-left: 40px;
 }
+.skills,
+.experiences__company,
+.additional-info__education,
+.additional-info__languages {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.animate-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
