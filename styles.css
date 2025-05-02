@@ -108,6 +108,7 @@ body {
 
 .contact-info__item-icon-wrapper {
   margin-right: 10px;
+  margin-top: 3px;
   width: 20px;
   display: flex;
   justify-content: center;
@@ -260,4 +261,10 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
 }
